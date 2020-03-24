@@ -1,7 +1,7 @@
 # This project is an test usage [Wordpress codex](https://developer.wordpress.org/plugins/intro/)
 
 ## attempt implement:
-  
+
    - [Header requirement]( https://developer.wordpress.org/plugins/plugin-basics/header-requirements/ )
    - [Uninstall Method]( https://developer.wordpress.org/plugins/plugin-basics/uninstall-methods/ )
    - [Checker Roles User]( https://developer.wordpress.org/plugins/security/checking-user-capabilities/ )
