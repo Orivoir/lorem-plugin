@@ -21,12 +21,22 @@ function loremPlugin_addMenu() {
     add_menu_page(
         "Lorem Plugin" ,
         "Lorem Plugin" ,
-        "manage_options" ,
-        "lorem-plugin" ,
-        "" , // callback name or anon fx
+        "manage_options" , // roles user for read data
+        "lorem-plugin" , // slug content page
+        "" , // callback name or anon fx , show factory data
         "dashicons-text" , // icon URL , from library: https://developer.wordpress.org/resource/dashicons/#text
         LOREM_PLUGIN_MENU_POSITION
     ) ;
+
+    add_submenu_page(
+        "lorem-plugin", // parent menu slug
+        "Settings" , // page title
+        "Settings" , // menu title
+        "manage_options" , // roles user for settings
+        "settings-lorem-plugin" , // slug
+        "" , // callback name or anon fx , show factory data
+    ) ;
+
 }
 
 add_action('admin_menu' , 'loremPlugin_addMenu' ) ;
