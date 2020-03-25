@@ -13,6 +13,14 @@
 
 // fx prefix: "loremPlugin_"
 
+// define default value from config
+
+// should be an string with min lengt: 3 and max length: 255 should normalize before check with trim function
+$textIpsum = 'Lorem ipsum dolor sit amet, consectum couram victorma.' ;
+
+// should be NULL or contains an valid email format
+$email = NULL ;
+
 // add top level menu
 const LOREM_PLUGIN_MENU_POSITION = 5 ;
 
